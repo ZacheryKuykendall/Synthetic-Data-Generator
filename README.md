@@ -81,6 +81,7 @@ The script can be easily customized to generate data for different subjects, suc
 First, clone the repository:
 ```
 git clone https://github.com/ZacheryKuykendall/Synthetic-Data-Generator.git
+cd Synthetic-Data-Generator
 ```
 
 This repository contains a Python script for generating synthetic datasets using a large language model. Inside, you will find the necessary scripts, a sample `.env` configuration file, and instructions to help you set up and run the generator effectively.
