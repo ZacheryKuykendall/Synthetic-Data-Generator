@@ -67,8 +67,7 @@ The script uses a `.env` file to manage configurations:
 The script can be easily customized to generate data for different subjects, such as finance, education, or genomics. Here’s how you can modify it:
 
 1. **Edit Prompt Templates**: Locate the part of the script where the system prompt and user prompt are defined (usually in the `generate_prompt()` function). Update these prompts to reflect the subject area you want to generate data for.
-   - For example, change "You are an expert in bioinformatics..." to "You are an expert in finance..." for generating finance-related datasets. Locate the part of the script where the system prompt and user prompt are defined. Update these prompts to reflect the subject area you want to generate data for.
-   - For example, change `"You are an expert in bioinformatics..."` to `"You are an expert in finance..."` for generating finance-related datasets.
+   - For example, change "You are an expert in bioinformatics..." to "You are an expert in finance..." for generating finance-related datasets.
 2. **Modify Context and Columns**: Update the context generation and column names to suit the specific subject you are targeting. For instance, in the CSV file, replace columns like `suggested_tools_software` with more appropriate categories such as `financial_metrics` or `educational_resources`.
 3. **Update ********************`.env`******************** File**: Modify the `.env` file to use different models if needed, or adjust the number of rows and output file names based on your requirements.
 
