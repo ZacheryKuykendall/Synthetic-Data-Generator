@@ -12,7 +12,7 @@ The Synthetic Dataset Generator is designed to create synthetic datasets that mi
 
 ---
 
-## Features (In-Depth) ✨
+## Features ✨
 
 ### 🔍 Large Language Model (LLM) Integration
 
