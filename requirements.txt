@@ -1,0 +1,6 @@
+openai
+python-dotenv
+backoff
+transformers
+torch
+sentencepiece
