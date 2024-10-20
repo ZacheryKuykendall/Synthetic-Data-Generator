@@ -85,25 +85,6 @@ cd Synthetic-Data-Generator
 
 This repository contains a Python script for generating synthetic datasets using a large language model. Inside, you will find the necessary scripts, a sample `.env` configuration file, and instructions to help you set up and run the generator effectively.
 
-### Set Up Virtual Environment 🐍
-
-For Linux/macOS:
-```
-python -m venv venv
-venv/Scripts/activate
-```
-For Windows:
-```
-python3 -m venv venv
-source venv/bin/activate
-```
-### Install Dependencies 📦
-
-Install the required dependencies:
-```
-pip install -r requirements.txt
-```
-
 ---
 
 ## Step by Step Guide 📋
@@ -114,7 +95,7 @@ pip install -r requirements.txt
 ```
 git clone https://github.com/ZacheryKuykendall/Synthetic-Data-Generator.git
 ```
-2. **Set Up Virtual Environment**:
+2. **Set Up Virtual Environment 🐍**:
 ```
 python -m venv venv
 source venv/bin/activate
@@ -135,7 +116,7 @@ python generate.py
 ```
 git clone https://github.com/ZacheryKuykendall/Synthetic-Data-Generator.git
 ```
-2. **Set Up Virtual Environment**:
+2. **Set Up Virtual Environment 🐍**:
 ```
 python3 -m venv venv
 venv/Scripts/activate
