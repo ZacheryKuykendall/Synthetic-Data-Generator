@@ -91,43 +91,27 @@ This repository contains a Python script for generating synthetic datasets using
 
 ### Setting Up via Command Line (Linux) 🐧
 
-1. **Clone the Repository**:
-```
-git clone https://github.com/ZacheryKuykendall/Synthetic-Data-Generator.git
-```
-2. **Set Up Virtual Environment 🐍**:
+1. **Set Up Virtual Environment 🐍**:
 ```
 python -m venv venv
 source venv/bin/activate
 ```
-3. **Install Dependencies**:
+2. **Install Dependencies**:
 ```
 pip install -r requirements.txt
-```
-4. **Run the Script**:
-```
-python generate.py
 ```
 ---
 
 ### Setting Up via Command Line (Windows) 🪟
 
-1. **Clone the Repository**:
-```
-git clone https://github.com/ZacheryKuykendall/Synthetic-Data-Generator.git
-```
-2. **Set Up Virtual Environment 🐍**:
+1. **Set Up Virtual Environment 🐍**:
 ```
 python3 -m venv venv
 venv/Scripts/activate
 ```
-3. **Install Dependencies**:
+2. **Install Dependencies**:
 ```
 pip install -r requirements.txt
-```
-4. **Run the Script**:
-```
-python generate.py
 ```
 ---
 
@@ -138,7 +122,7 @@ To generate the dataset, simply run:
 python generate.py
 ```
 
-This will load the specified model from Hugging Face and generate synthetic data according to your configuration.
+This will load the specified model from Hugging Face and generate synthetic data according to your configuration. Once you download the model once, it will save the model in cache so that it easily loads the next time you run the script.
 
 ### Parameters 🔧
 
