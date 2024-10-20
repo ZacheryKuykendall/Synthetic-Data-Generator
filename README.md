@@ -108,19 +108,6 @@ pip install -r requirements.txt
 
 ## Step by Step Guide 📋
 
-### Setting Up in Visual Studio Code 💻
-
-1. **Clone the Repository**: Open Visual Studio Code and clone the repository by selecting **View > Command Palette** and typing `Git: Clone`.
-2. **Open the Folder**: Navigate to the cloned directory in VS Code.
-3. **Set Up Virtual Environment**:
-   - Open the integrated terminal (**View > Terminal**).
-   - Run the following commands to create and activate a virtual environment:
-4. **Install Dependencies**: Run:
-5. **Run the Script**: You can run the script directly in the VS Code terminal:
-6. **Using the ********************`.env`******************** File**: Create a `.env` file in the root of the project and add the necessary environment variables to configure your run.
-
----
-
 ### Setting Up via Command Line (Linux) 🐧
 
 1. **Clone the Repository**:
