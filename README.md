@@ -50,30 +50,6 @@ Supports CPU offloading to manage memory usage effectively when GPU resources ar
 
 Implements a retry mechanism using the `backoff` library to handle transient errors during model loading or data generation. This ensures that the script can recover from temporary issues, providing a more reliable data generation process.
 
-### 🧠 Gradient Checkpointing
-
-Implements gradient checkpointing to minimize GPU memory usage during the text generation process, making it possible to use larger models even with limited hardware resources.
-
-### 📊 Batch Processing
-
-Efficiently processes and writes dataset rows to CSV files in batches, reducing the overhead associated with file I/O operations and improving overall performance.
-
-### ⚙️ Environment Variables Customization
-
-Allows easy customization of model parameters, cache directories, and other settings through a `.env` file, offering flexibility in how the script is run.
-
-### 📝 Customizable Prompt Templates
-
-The prompt templates used to generate the dataset can be easily customized to suit different domains such as finance, education, or genomics, allowing the generator to adapt to a wide range of applications.
-
-### 🌍 Multi-Domain Flexibility
-
-The script can generate synthetic data for a variety of domains. This flexibility makes it suitable for applications in finance, education, healthcare, and more, based on user customization of prompts and contexts.
-
-### ⚡ Command Line Integration
-
-Users can pass environment variables directly via the command line to override `.env` settings, making it easy to adapt configurations without editing the file, ideal for quick testing and deployment.
-
 ---
 
 ### Environment Variables 🌱
