@@ -16,7 +16,7 @@ The Synthetic Dataset Generator is designed to create synthetic datasets that mi
 
 ### 🔍 Large Language Model (LLM) Integration
 
-Uses **nvidia/Mistral-NeMo-Minitron-8B-Instruct** from Hugging Face to provide advanced text generation, resulting in high-quality data that can be tailored to multiple domains such as bioinformatics, finance, and education. This model offers robust and contextually relevant responses, making it ideal for generating synthetic data for various applications.
+Uses **nvidia/Mistral-NeMo-Minitron-8B-Instruct** from Hugging Face to provide advanced text generation, resulting in high-quality data that can be tailored to multiple domains such as bioinformatics, finance, and education. This model offers robust and contextually relevant responses, making it ideal for generating synthetic data for various applications. Please be aware, if you plan to use another model, you may need additional to install additional dependencies.
 
 ### 🧠 Gradient Checkpointing
 
