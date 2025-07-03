@@ -4,3 +4,6 @@ backoff
 transformers
 torch
 sentencepiece
+flask
+pandas
+
