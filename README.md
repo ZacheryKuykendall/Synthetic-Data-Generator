@@ -1,3 +1,5 @@
+
+
 # Synthetic Dataset Generator 🚀📝
 
 
@@ -122,6 +124,8 @@ To generate the dataset, simply run:
 python generate.py
 ```
 
+Alternatively, run `python app.py` to launch the Flask web interface for a browser-based generation experience.
+
 This will load the specified model from Hugging Face and generate synthetic data according to your configuration. Once you download the model once, it will save the model in cache so that it easily loads the next time you run the script.
 
 ### Parameters 🔧
@@ -170,4 +174,3 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 ## Contact 📧
 
 For more information, feel free to reach out at [[zachery@the-node.co](mailto\:zachery@the-node.co)].
-
